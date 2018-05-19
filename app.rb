@@ -22,7 +22,5 @@ class App < Sinatra::Base
       @output += "#{@phrase}\n"
     end
     @output
-    # binding.pry
-
   end
 end
