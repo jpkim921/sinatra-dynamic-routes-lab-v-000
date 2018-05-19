@@ -19,7 +19,7 @@ class App < Sinatra::Base
 
     output = ""
     @number.times do |x|
-      output += @phrase\n
+      output += @phrase<<\n
       binding.pry
     end
 
