@@ -30,6 +30,7 @@ class App < Sinatra::Base
                 params[:word3],
                 params[:word4],
                 params[:word5]].join(" ") + "."
+                
   end
 
 
