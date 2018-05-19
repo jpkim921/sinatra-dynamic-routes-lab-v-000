@@ -19,8 +19,8 @@ class App < Sinatra::Base
 
     output = ""
     @number.times do |x|
-      binding.pry
       output += @phrase
+      binding.pry
     end
 
 
